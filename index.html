@@ -28,7 +28,7 @@
 						<div ng-repeat="(item_type, item_data) in statues[group_type]">
 							<div class="input-group" ng-init="input = ''">
 								<span class="input-group-addon">{{item_data.name}}</span>
-								<input type="value" class="form-control" ng-model="input")>
+								<input type="number" class="form-control" ng-model="input")>
 								<span class="input-group-addon">{{calc(input, item_data)}}</span>
 							</div>
 							<br/>
